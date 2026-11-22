@@ -132,7 +132,7 @@ p { margin: 0; line-height: 1.55; }
 .form { gap: 14px; }
 .field { display: flex; flex-direction: column; gap: 6px; font-size: 13px; color: var(--muted); border: 0; padding: 0; margin: 0; min-width: 0; }
 .field legend { padding: 0; margin-bottom: 6px; }
-.field input:not([type=checkbox]), .field select, .field textarea {
+.field input:not([type=checkbox]):not([type=radio]), .field select, .field textarea {
   min-height: 48px; border-radius: 10px; border: 1px solid var(--line-strong); background: var(--surface);
   padding: 0 12px; font: inherit; font-size: 16px; color: var(--ink); width: 100%;
 }

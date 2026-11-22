@@ -1,6 +1,6 @@
 // 오프라인 지원: 앱 파일을 휴대폰에 저장해 두고, 인터넷이 없어도 열리게 합니다.
 // 앱을 수정해서 다시 올릴 때는 VERSION 숫자를 올려주세요. 그래야 새 파일로 바뀌어요.
-const VERSION = 'v9';
+const VERSION = 'v10';
 const CACHE = `fitapp-${VERSION}`;
 
 const FILES = [
