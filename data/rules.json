@@ -1,0 +1,37 @@
+{
+  "goals": {
+    "strength": { "label": "근력",       "repRange": [6, 10],  "rest": 120, "tabataPerWeek": 1, "setsBonus": 1 },
+    "shape":    { "label": "체형",       "repRange": [8, 12],  "rest": 90,  "tabataPerWeek": 2, "setsBonus": 0 },
+    "fatloss":  { "label": "체지방 감량", "repRange": [10, 15], "rest": 60,  "tabataPerWeek": 99, "setsBonus": 0 },
+    "fitness":  { "label": "체력",       "repRange": [12, 15], "rest": 45,  "tabataPerWeek": 99, "setsBonus": 0 }
+  },
+  "experience": {
+    "1": { "label": "처음",        "maxLevel": 1, "exercises": 4, "sets": 2, "tabataRounds": 4, "tabataSets": 1, "tabataIntensity": "low",    "tips": "always" },
+    "2": { "label": "조금 해봤음",  "maxLevel": 2, "exercises": 5, "sets": 3, "tabataRounds": 8, "tabataSets": 1, "tabataIntensity": "normal", "tips": "first2" },
+    "3": { "label": "1년 이상",     "maxLevel": 3, "exercises": 6, "sets": 3, "tabataRounds": 8, "tabataSets": 2, "tabataIntensity": "high",   "tips": "collapsed" }
+  },
+  "minutesToExercises": { "30": -1, "45": 0, "60": 1 },
+  "progression": {
+    "easy": { "reps": 2 },
+    "ok":   { "reps": 1 },
+    "hard": { "reps": 0, "streakToDeload": 2, "deloadRatio": 0.9 }
+  },
+  "levelUp": { "weeks": 4, "sessions": 12 },
+  "cycle": {
+    "defaultCycleLength": 28,
+    "defaultPeriodLength": 5,
+    "lutealLength": 14,
+    "averageOf": 6,
+    "phases": {
+      "menstrual":  { "label": "생리기", "setsDelta": -1, "tabata": "low",    "message": "무리하지 말고 가볍게 움직여요." },
+      "follicular": { "label": "난포기", "setsDelta": 0,  "tabata": "normal", "message": "무게를 올려보기 좋은 시기예요." },
+      "ovulation":  { "label": "배란기", "setsDelta": 0,  "tabata": "normal", "message": "컨디션에 맞춰 평소대로 해요." },
+      "luteal":     { "label": "황체기", "setsDelta": 0,  "tabata": "normal", "message": "지금 강도를 유지해요." }
+    }
+  },
+  "condition": {
+    "good":   { "label": "좋음",   "setsDelta": 0 },
+    "normal": { "label": "보통",   "setsDelta": 0 },
+    "bad":    { "label": "안 좋음", "setsDelta": -1, "tabata": "low" }
+  }
+}

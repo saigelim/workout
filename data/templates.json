@@ -1,0 +1,29 @@
+{
+  "routines": {
+    "lower_a": { "name": "하체 A", "slots": ["squat", "hinge", "glute", "quad_iso", "core", "ham_iso"], "tabataFocus": "lower" },
+    "lower_b": { "name": "하체 B", "slots": ["glute", "lunge", "hinge", "ham_iso", "core", "quad_iso"], "tabataFocus": "lower" },
+    "upper":   { "name": "상체", "slots": ["push_h", "pull_v", "push_v", "pull_h", "core", "arm"], "tabataFocus": "upper" },
+    "upper_a": { "name": "상체 A", "slots": ["push_h", "pull_v", "push_v", "pull_h", "arm", "core"], "tabataFocus": "upper" },
+    "upper_b": { "name": "상체 B", "slots": ["pull_h", "push_h", "pull_v", "shoulder_iso", "core", "arm"], "tabataFocus": "upper" },
+    "full_a":  { "name": "전신 A", "slots": ["squat", "push_h", "pull_v", "glute", "core", "shoulder_iso"], "tabataFocus": "full" },
+    "full_b":  { "name": "전신 B", "slots": ["hinge", "pull_h", "push_v", "lunge", "core", "arm"], "tabataFocus": "full" },
+    "full_c":  { "name": "전신 C", "slots": ["squat", "pull_h", "glute", "push_h", "core", "ham_iso"], "tabataFocus": "full" }
+  },
+  "splits": {
+    "2": ["full_a", "full_b"],
+    "3": ["lower_a", "upper", "full_a"],
+    "4": ["lower_a", "upper_a", "lower_b", "upper_b"],
+    "5": ["lower_a", "upper_a", "lower_b", "upper_b", "full_c"]
+  },
+  "defaultDays": {
+    "2": [1, 4],
+    "3": [1, 3, 5],
+    "4": [1, 2, 4, 5],
+    "5": [1, 2, 3, 4, 5]
+  },
+  "focusExtraSlot": {
+    "lower_glute": "glute",
+    "upper_line": "shoulder_iso",
+    "balance": null
+  }
+}

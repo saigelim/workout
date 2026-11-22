@@ -1,0 +1,17 @@
+{
+  "name": "오늘의 운동",
+  "short_name": "오늘의 운동",
+  "description": "헬스장 초보를 위한 운동 프로그램, 기록, 타바타 타이머",
+  "lang": "ko",
+  "start_url": "./#/today",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F7F6F3",
+  "theme_color": "#F7F6F3",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
